@@ -1,0 +1,42 @@
+
+--1: create appsettings.json file
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  
+  "ConnectionStrings": {
+    "FoodOrderingDb": "Server=;Database=;Trusted_Connection=True;TrustServerCertificate=True;"
+  }
+}
+
+  add this to the appsettings.json file add your connection string
+
+
+--2: create appsettings.Development.json file
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  }
+}
+ add this to the appsettings.Development.json file
+
+
+
+
+
+--3: open terminal and navigate to the project root folder and run the following command for migration:
+
+dotnet ef migrations add InitialCreate --project Infrastructure --startup-project WebApi_project --context FoodOrderingDbContext --output-dir Configurations
+
+
+--4: open terminal and navigate to the project root folder and run the following command for db_update after migration:
+
+dotnet ef database update --project Infrastructure --startup-project WebApi_project --context FoodOrderingDbContext

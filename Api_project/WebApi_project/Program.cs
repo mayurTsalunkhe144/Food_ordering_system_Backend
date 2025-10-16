@@ -1,7 +1,17 @@
+using Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+builder.Services.AddDbContext<FoodOrderingDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("FoodOrderingDb")));
+
+
+
+
+
 builder.Services.AddOpenApi();
 
 var app = builder.Build();

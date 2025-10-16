@@ -1,0 +1,112 @@
+# -----------------------------
+# Visual Studio & .NET Ignored Files
+# -----------------------------
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Rider and VS Code
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio build cache/options
+*.obj
+*.pdb
+*.exe
+*.dll
+*.cache
+*.dbmdl
+*.log
+*.vspscc
+*.vssscc
+*.tmp
+*.bak
+*.swp
+*.config
+*.mdb
+*.ldf
+*.ndf
+*.mdf
+
+# VS temporary folders
+.vs/
+_TestResults/
+TestResults/
+x64/
+x86/
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of package restore
+**/packages/*
+# except build/, which is used as an MSBuild target
+!**/packages/build/
+.nuget/
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Coverage reports
+coverage/
+*.coverage
+*.coveragexml
+
+# -----------------------------
+# Environment Config Files
+# -----------------------------
+# appsettings files (do not expose secrets)
+appsettings.json
+appsettings.Development.json
+appsettings.*.json
+
+# User secrets folder
+secrets.json
+
+# Local environment folders
+.env
+.env.*
+.env.local
+
+# -----------------------------
+# OS Specific
+# -----------------------------
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# -----------------------------
+# Others
+# -----------------------------
+# JetBrains Rider
+.idea/
+
+# Backup & temp files
+*.bak
+*.tmp
+*.temp
+
+# Publish output
+/publish/
+/wwwroot/lib/
+/node_modules/
+
+# Entity Framework Migrations Backup
+MigrationsBackup/

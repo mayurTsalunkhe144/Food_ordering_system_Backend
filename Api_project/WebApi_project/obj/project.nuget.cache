@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "vhSweX2XioE=",
+  "success": true,
+  "projectFilePath": "D:\\Kanini-training\\Project\\backend\\Api_project\\WebApi_project\\WebApi_project.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mayur\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.8\\microsoft.aspnetcore.openapi.9.0.8.nupkg.sha512",
+    "C:\\Users\\Mayur\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

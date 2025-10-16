@@ -10,7 +10,7 @@
   "AllowedHosts": "*",
   
   "ConnectionStrings": {
-    "FoodOrderingDb": "Server=;Database=;Trusted_Connection=True;TrustServerCertificate=True;"
+    "FoodOrderingDb": "Server=<server name>;Database=<database name>;Trusted_Connection=True;TrustServerCertificate=True;"
   }
 }
 
